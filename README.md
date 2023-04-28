@@ -10,6 +10,14 @@ git clone https://github.com/mkruunari/BackEndLopputyo.git
 
 -->
 
+pip install uvicorn
+
+-->
+
+uvicorn main:app --reload
+
+tämän jälkeen tulee näkyviin linkki, josta klikkaamalla pääset porttiin, johon lisäät vielä "/docs", jolloin pääset käyttämään API:a
+
 
 
 
