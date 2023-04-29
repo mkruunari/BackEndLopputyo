@@ -1,7 +1,7 @@
 from typing import List, Optional
 from fastapi import FastAPI
 from datetime import datetime
-from routers import players, events 
+from app.routers import players, events 
 
 app = FastAPI()
 

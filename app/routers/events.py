@@ -4,7 +4,7 @@ from fastapi import APIRouter
 from typing import List
 from fastapi import HTTPException
 #from .models import Player, PlayerCreate, PlayerInDB
-from routers.players import players
+from app.routers.players import players
 router = APIRouter()
 
 class Event:

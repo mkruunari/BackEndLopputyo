@@ -1,7 +1,7 @@
 from fastapi import APIRouter
 from typing import List, Optional
 from datetime import datetime
-from database.models import Player
+from app.database.models import Player
 from fastapi.responses import JSONResponse
 from fastapi import HTTPException
 router = APIRouter()
