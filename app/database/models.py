@@ -1,4 +1,5 @@
 from datetime import datetime
+#Player ja Class luokat, ja niiden tarvittavat attribuutit
 class Player:
     def __init__(self, id, name):
         self.id = id
