@@ -20,6 +20,8 @@ venv
 docs.zip
 archive.zip
 *.pyc
+.gitignore
+.Ds_Store
 # vim temporary files
 *~
 .*.sw?
