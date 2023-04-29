@@ -10,7 +10,7 @@ players = []
 
 @router.get("/players", status_code=200)
 async def get_players():
-    # return players
+    # palauttaa pelaajat
     return [{"id": player.id, "name": player.name} for player in players]
 
 
